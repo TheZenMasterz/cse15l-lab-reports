@@ -3,7 +3,8 @@
 ***
 
 Here's some noteable things about me:
-  *I have no life 
+  
+-I have no life 
   
 Don't click. 
 

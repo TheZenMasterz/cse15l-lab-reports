@@ -5,6 +5,6 @@
 Here's some noteable things about me:
   *I have no life 
   
-Here's a link!
+Don't click. 
 
-[Link](https://www.youtube.com/watch?v=X2WH8mHJnhM)
+[trojanHorse :)](https://www.youtube.com/watch?v=X2WH8mHJnhM)

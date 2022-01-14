@@ -12,7 +12,7 @@ The first step, we need to ensure we have downloaded VSCode.
 
 Once it's installed, and after installing a completely necessary new theme, it should look something like this. 
 
-![Image](testImage.png)
+![Image](image1.png)
 
 **Remotely Connecting**
 
@@ -28,11 +28,11 @@ Click yes when prompted, and you should be connected!
 
 Here are some useful commands to know
 
-cd - changes the working directory
-ls- lists all the file in the current directory
-pwd- shows the current working directory
-mkdir- makes a new directory
-cp- copies the argument provided
+* cd - changes the working directory
+* ls- lists all the file in the current directory
+* pwd- shows the current working directory
+* mkdir- makes a new directory
+* cp- copies the argument provided
 
 ![Image](image3.png)
 

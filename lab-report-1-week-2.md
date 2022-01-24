@@ -16,7 +16,8 @@ Once it's installed, and after installing a completely necessary new theme, it s
 
 **Remotely Connecting**
 
-Next we, can connect remotely by using the command  *ssh cs15lwi22zz@ieng6.ucsd.edu*
+Next we, can connect remotely by using the command  
+`ssh cs15lwi22zz@ieng6.ucsd.edu`
 
 Instead of the *zz*, replace it with your personal account letters. 
 
@@ -28,23 +29,23 @@ Click yes when prompted, and you should be connected!
 
 Here are some useful commands to know
 
-* cd - changes the working directory
-* ls- lists all the file in the current directory
-* pwd- shows the current working directory
-* mkdir- makes a new directory
-* cp- copies the argument provided
+* `cd` - changes the working directory
+* `ls`- lists all the file in the current directory
+* `pwd` - shows the current working directory
+* `mkdir` - makes a new directory
+* `cp` - copies the argument provided
 
 ![Image](image3.png)
 
 **Moving Files with scp**
 
-One notable command is scp. It allows us to move files to the server directly from the client. Let's try it by moving a file over to the server. 
+One notable command is `scp`. It allows us to move files to the server directly from the client. Let's try it by moving a file over to the server. 
 
 ![Image](image4.png)
 
 **Setting an SSH Key**
 
-It's a little bit annoying that it keeps asking for us to keep entering our password, let's make it so that it automatically remembers us. Generate a ssh key with the command ssh-keygen. Now, log into the server, make a new dir called .ssh, and run the following command - scp /Users/(your username)/.ssh/id_rsa.pub cs15lwi(your characters)@ieng6.ucsd.edu:~/.ssh/authorized_keys. Now, you should be able to login without a password!
+It's a little bit annoying that it keeps asking for us to keep entering our password, let's make it so that it automatically remembers us. Generate a ssh key with the command ssh-keygen. Now, log into the server, make a new dir called .ssh, and run the following command - `scp /Users/(your username)/.ssh/id_rsa.pub cs15lwi(your characters)@ieng6.ucsd.edu:~/.ssh/authorized_keys`. Now, you should be able to login without a password!
 
 ![Image](image5.png)
 

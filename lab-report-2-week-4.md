@@ -23,4 +23,15 @@ In this case, the bug was the program not checking if what it was adding to the 
 
 ***
 
-Let's try looking for another bug! How about, if we try inputting in a file that isn't valid - [image.md](https://raw.githubusercontent.com/TheZenMasterz/markdown-parse/main/incorrect.md)
+Let's try looking for another bug! How about, if we try inputting in a file that isn't valid - [incorrect.md](https://github.com/TheZenMasterz/markdown-parse/blob/main/incorrect.md)
+
+What happens when we run ```java MarkdownParse incorrect.md``` ? Our program prints out ```Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 18, end -1, length 28```. We don't want our program to crash, we just want it to print out the links. 
+
+Since the link in this program isn't a valid link, how about we just don't add it to our array of links? Let's just add a check to see if there is actually a closed parentheses anytime we're adding a link!
+
+![](codeChange1.png)
+
+So, the bug of the program not checking for the existence of a closed parentheses was causing the symptom of an IndexOutOfBoundsException. We produced this symtom by inputting in a file where there is a link without a closed parentheses. 
+
+***
+

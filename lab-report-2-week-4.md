@@ -8,6 +8,9 @@ In this lab, we worked with a file *MarkdownParse.java*, which attempted to pars
 
 Unfortunately, this code doesn't do exactly what we want. Let's try and find ways we can break this code, and then fix it!
 
+
+***
+
 For starters, it looks like this code is not differentiating between links and images. Let's try and running MarkdownParse on this file to test this theory -  [image.md](https://raw.githubusercontent.com/TheZenMasterz/markdown-parse/main/image.md)
 
 When we run the command(after compiling MarkdownParse.java), ```java MarkdownParse image.md```, our program prints out ```[google.com, pic.png]```. We don't wan't it to print out pic.png, so it looks like we were right. 
@@ -18,3 +21,6 @@ Now, we need some way to be able to differentiate between links and images. Luck
 
 In this case, the bug was the program not checking if what it was adding to the array of links was an image. The bug resulted in the symptom that the program outputting images as links. We could produce this symtom by inputting in a markdown file with an image. 
 
+***
+
+Let's try looking for another bug! How about, if we try inputting in a file that isn't valid - [image.md](https://raw.githubusercontent.com/TheZenMasterz/markdown-parse/main/incorrect.md)

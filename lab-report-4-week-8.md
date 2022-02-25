@@ -42,4 +42,7 @@ So, we should expect those links to be returned by the getLinks function. This t
 
 Once again, we fail this test as well. This is what the JUnit test outputs-  ```java.lang.StringIndexOutOfBoundsException: String index out of range: -1```
 
+
 One clear issue is that the our program is not able to find the correct closing paretheses, which is resulting in an out of bounds error. Once again, this is likely a big change that would require restructuring our entire code. 
+
+The other repository is capturing the links correctly, but it is also capturing the spaces between the link and the parentheses. 

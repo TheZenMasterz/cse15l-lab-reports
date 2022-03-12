@@ -16,4 +16,4 @@ Another test that we are getting different outputs for is 14.md. It looks like t
 
 ![](l3.png). 
 
-As you can see it should have no links. Again we are running into the same issue where our implementation runs into an infinite loop while theirs correctly returns an empty list. Implementing the same fix from the previous test file should solve this issue!
+As you can see it should have no links. Again we are running into the same issue where our implementation runs into an infinite loop while theirs correctly returns an empty list. However, the cause of this infinite loop is because of the newline character which we don't really check for. If we add a quick check for that, we should be good to go!
